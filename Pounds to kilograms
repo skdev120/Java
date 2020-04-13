@@ -1,0 +1,24 @@
+
+import java.util.Scanner;
+public class Pounds2kilos {
+
+public static void main (String[] args)
+{
+   // create Scanner objects
+  Scanner keyboard = new Scanner (System. in);
+  // declare variables
+  double pounds, kilos;
+  // prompt for input 
+  System.out.print("Please enter weight in pounds: ");
+  //input method called 
+  pounds = keyboard.nextDouble();
+  // perform calculation 
+  kilos = pounds/2.2;
+  
+  // display results 
+  System.out.format("%.0f", pounds);
+  System.out.print(" pounds is equivalent to " );
+  System.out.format("%.2f", kilos);
+  System.out.println(" kilograms");
+}
+}
